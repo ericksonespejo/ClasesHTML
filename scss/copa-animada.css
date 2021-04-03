@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  background-color: rosybrown;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.agua {
+  background-color: #198497;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 215px;
+  z-index: 1;
+  -webkit-clip-path: circle(50% at 50% 2%);
+          clip-path: circle(50% at 50% 2%);
+}
+
+.agua::before {
+  content: '';
+  width: 200%;
+  height: 50px;
+  position: absolute;
+  top: -27px;
+  background-color: #198497;
+  -webkit-clip-path: polygon(0 100%, 8% 77%, 0% 54%, 17% 40%, 41% 63%, 64% 33%, 77% 57%, 100% 46%, 100% 100%);
+          clip-path: polygon(0 100%, 8% 77%, 0% 54%, 17% 40%, 41% 63%, 64% 33%, 77% 57%, 100% 46%, 100% 100%);
+  -webkit-animation: olasdeagua 3s  infinite;
+          animation: olasdeagua 3s  infinite;
+  overflow: auto;
+  z-index: 3;
+}
+
+@-webkit-keyframes olasdeagua {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+@keyframes olasdeagua {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+.copa {
+  background-color: rgba(226, 226, 224, 0.521);
+  width: 200px;
+  height: 200px;
+  -webkit-clip-path: circle(50% at 50% 10%);
+          clip-path: circle(50% at 50% 10%);
+}
+
+.lre {
+  background-color: rgba(226, 226, 224, 0.596);
+  width: 50px;
+  height: 150px;
+  position: absolute;
+  top: 250px;
+}
+
+.base {
+  background-color: rgba(226, 226, 224, 0.692);
+  width: 180px;
+  height: 50px;
+  position: relative;
+  bottom: -4px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=stiles.css.map */
