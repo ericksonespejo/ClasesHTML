@@ -38,7 +38,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -56,20 +56,24 @@ body {
   max-width: 1200xp;
   width: 100%;
 }
+
 .container .row {
   margin: 0 auto;
   border: 1px solid gray;
   max-width: 980px;
   padding: 0 20px;
 }
+
 .container .row .titulo-examen {
   margin-top: 50px;
 }
+
 .container .row .titulo-examen h1, .container .row .titulo-examen h2 {
   text-align: center;
   font-size: 2.2em;
   font-weight: bold;
 }
+
 .container .row .titulo-examen h2 {
   margin-top: 30px;
 }
@@ -79,6 +83,7 @@ body {
   font-size: 1.8em;
   margin-top: 25px;
 }
+
 .datos-personales p span {
   text-decoration: underline;
   font-weight: lighter;
@@ -88,9 +93,11 @@ body {
   font-weight: bold;
   margin-top: 25px;
 }
+
 .instrucciones p {
   font-size: 1.5em;
 }
+
 .instrucciones .normal {
   font-weight: 100;
   font-size: 1.2em;
@@ -104,24 +111,29 @@ img[src] {
 section h2 span {
   margin-right: 10px;
 }
+
 section .respuesta {
   background-color: #6dc308;
   padding: 10px;
   border-radius: 10px;
   margin: 20px;
 }
+
 section .respuesta p {
   color: white;
 }
+
 section .respuesta .etiqueta-linea {
   border: 1px dashed darkblue;
   display: inline;
 }
+
 section .respuesta .etiqueta-bloque {
   border: 1px dashed darkblue;
   margin-top: 5px;
   color: white;
 }
+
 section .respuesta .table .small {
   color: red;
 }
@@ -129,6 +141,7 @@ section .respuesta .table .small {
 .table .preg6 {
   color: #264603;
 }
+
 .table .preg6 span {
   color: red;
 }
@@ -164,6 +177,7 @@ article.small {
   margin: 0px auto;
   width: 100%;
 }
+
 .tablas td {
   border-color: black;
   border-style: solid;
@@ -171,6 +185,7 @@ article.small {
   padding: 12px 20px;
   word-break: normal;
 }
+
 .tablas th {
   border-color: black;
   border-style: solid;
@@ -179,6 +194,7 @@ article.small {
   padding: 12px 20px;
   word-break: normal;
 }
+
 .tablas .tg .tg-izq {
   text-align: left;
   vertical-align: top;
@@ -187,7 +203,9 @@ article.small {
 footer {
   margin-bottom: 10px;
 }
+
 footer p {
   padding: 20;
   text-align: center;
 }
+/*# sourceMappingURL=stiles.css.map */
