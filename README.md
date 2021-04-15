@@ -24,3 +24,16 @@
 - Formularios
 - Contenido multimedia
 # CSS
+-   Introdución a **CSS**
+-   Selectores
+-   Los pilares de CSS
+    -   Herencia
+    -   Especificidad
+    -   Cascada
+-   Box model
+-   Bordes y sombras
+-   Seudo Clases
+-   Fondos
+-   Color
+-   Texto
+-   Flexbox
