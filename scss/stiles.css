@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+.container {
+  margin: 0;
+  max-width: 1200xp;
+  width: 100%;
+}
+
+.container .row {
+  margin: 0 auto;
+  border: 1px solid gray;
+  max-width: 980px;
+  padding: 0 20px;
+}
+
+.container .row .titulo-examen {
+  margin-top: 50px;
+}
+
+.container .row .titulo-examen h1, .container .row .titulo-examen h2 {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.container .row .titulo-examen h2 {
+  margin-top: 30px;
+}
+
+.datos-personales p {
+  font-weight: bold;
+  font-size: 1.8em;
+  margin-top: 25px;
+}
+
+.datos-personales p span {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+
+.instrucciones {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.instrucciones p {
+  font-size: 1.5em;
+}
+
+.instrucciones .normal {
+  font-weight: 100;
+  font-size: 1.2em;
+  padding-left: 13%;
+}
+
+img[src] {
+  width: 100%;
+}
+
+section h2 span {
+  margin-right: 10px;
+}
+
+section .respuesta {
+  background-color: #6dc308;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+section .respuesta p {
+  color: white;
+}
+
+section .respuesta .etiqueta-linea {
+  border: 1px dashed darkblue;
+  display: inline;
+}
+
+section .respuesta .etiqueta-bloque {
+  border: 1px dashed darkblue;
+  margin-top: 5px;
+  color: white;
+}
+
+section .respuesta .table .small {
+  color: red;
+}
+
+.table .preg6 {
+  color: #264603;
+}
+
+.table .preg6 span {
+  color: red;
+}
+
+.table article.small p.small {
+  color: #4e4e4e;
+  margin: 20px 0;
+  font-size: 2em;
+  font-weight: 100;
+  text-underline-offset: 0.2em;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+div article p {
+  font-size: 1.5em;
+  line-height: 1em;
+  text-align: justify;
+}
+
+article.small {
+  padding: 20px;
+  font-size: 1.5em;
+  color: #4e4e4e;
+  font-weight: 100;
+}
+
+.tablas {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.tablas td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding: 12px 20px;
+  word-break: normal;
+}
+
+.tablas th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  padding: 12px 20px;
+  word-break: normal;
+}
+
+.tablas .tg .tg-izq {
+  text-align: left;
+  vertical-align: top;
+}
+
+footer {
+  margin-bottom: 10px;
+}
+
+footer p {
+  padding: 20;
+  text-align: center;
+}
+/*# sourceMappingURL=stiles.css.map */
